@@ -19,13 +19,6 @@ using namespace std;
 #define ss second
 #define ll long long
 
-// FOR template
-#define forn(i, x, y) for(int i = x; i < (y); ++ i)
-#define forn(i, x, y, d) for(int i = x; i < (y); i += (d))
-#define forn(i, y) for(int i = 0; i < (y); ++ i)
-#define forn(i, y, d) for(int i = 0; i < (y); i += (d))
-#define forr(i, x, y, d) for(int i = y; i > (x); i -= (d))
-
 int32_t month[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 template<typename T> using matrix = vector<vector<T>>;
 template<class T> using vi = vector<T>;
